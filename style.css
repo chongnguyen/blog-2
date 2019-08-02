@@ -345,9 +345,6 @@ blockquote::before {
 }
 
 /* form */
-.contact-section .contact-form {
-    /* margin-left: 10px; */
-}
 .contact-section .box-contact {
     margin-left: 90px;
     display: inline-block;
@@ -364,6 +361,13 @@ input, textarea {
     width: 200px;
     color: #fff;
     font-size: .9rem;
+    outline: none;
+    border: 1px solid #161616ad;
+    padding: 5px;
+}
+
+input:focus, textarea:focus {
+    background-color: #000000c0;
 }
 form {
     margin-bottom: 20px;
@@ -375,6 +379,7 @@ input {
 }
 textarea {
     height: 110px;
+    resize: none;
 }
 
 .contact-section .box-contact .lable-comment{
