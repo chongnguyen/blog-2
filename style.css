@@ -272,3 +272,130 @@ blockquote::before {
     border-radius: 50%;
     vertical-align: middle;
 }
+
+/*----------------------------------------- SPONSORS --------------------------------------- */
+.sponsors-section .title-section::after {
+    width: 150px;
+    margin-bottom: 100px;
+}
+
+.sponsors-section .sponsors-logo {
+    width: 100%;
+}
+
+.sponsors-section .sponsors-logo  img{
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+.sponsors-section .sponsors-logo figcaption {
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+    color: #100457;
+    font-weight: 700;
+}
+
+.sponsors-section .sponsors-logo img:hover,
+.sponsors-section .sponsors-logo img:active {
+    transform: scale(1.15);
+    transition: all .3s;
+}
+
+/* ---------------------------- CONTACT ------------------------------------ */
+.contact-section {
+    background-image: linear-gradient(54deg, rgba(17,7,66,1) 0%, rgba(11,234,244,0.3085609243697479) 100%), url(./img/background5.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+}
+
+.contact-section .infomation {
+    margin-top: 100px;
+    font-size: 1.1rem;
+}
+
+.contact-section ul {
+    list-style: none;
+}
+.contact-section .contact-address li {
+    /* text-transform: capitalize; */
+    margin: 15px;
+}
+.contact-section .contact-address i {
+    margin-right: 15px;
+    color: #5c41f7;
+}
+
+.contact-section .contact-icon {
+    display: flex;
+    font-size: 2.5rem;
+    margin: 40px 60px;
+    letter-spacing: 30px
+}
+
+.contact-section .contact-icon i:hover,
+.contact-section .contact-icon i:active {
+    transform: scale(1.1);
+    color: #e67e22;
+    transition: all .3s;
+}
+
+/* form */
+.contact-section .contact-form {
+    /* margin-left: 10px; */
+}
+.contact-section .box-contact {
+    margin-left: 90px;
+    display: inline-block;
+    background-color: rgba(13, 13, 14, 0.466);
+    padding: 20px;
+    width: 70%;
+    height: 440px;
+    padding-top: 60px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    background-color: #050505ad;
+    width: 200px;
+    color: #fff;
+    font-size: .9rem;
+}
+form {
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+input {
+    height: 40px;
+}
+textarea {
+    height: 110px;
+}
+
+.contact-section .box-contact .lable-comment{
+   width: 7rem;
+}
+
+.contact-form .btn {
+    display: block;
+    margin: auto;
+    width: 250px;
+    border-radius: 10px;
+
+}
+
+/*------------------------------ FOOTER ------------------------------------*/
+footer {
+    height: 60px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
