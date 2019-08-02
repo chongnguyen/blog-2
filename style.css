@@ -46,10 +46,9 @@ html {
 
 .title-section::after {
     content: "";
-    border: 2px solid #e67e22 ;
+    border: 2px solid #e67d22c2 ;
     border-radius: 20%;
     width: 130px;
-    color: #e67e22;
     display: block;
     clear: both;
     margin: auto;
@@ -224,3 +223,52 @@ section {
     border-top-left-radius: 10px;
 }
 
+/* -------------------- TESTIMONIALS ------------------------------------------------ */
+
+.testimonials-section {
+    background-image: linear-gradient(54deg, rgba(17,7,66,1) 0%, rgba(11,234,244,0.3085609243697479) 100%), url(./img/background2.jpeg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 90%;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.testimonials-section .title-section::after {
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 100px;
+}
+
+.testimonials-section .testimonial-box .content{
+    width: 90%;
+}
+
+
+blockquote {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+blockquote::before {
+    position: absolute;
+    content: "\201C";
+    display: block;
+    clear: both;
+    font-size: 5rem;
+    font-weight: 900;
+    left: -20px;
+    top: 0px;
+}
+
+.testimonials-section img {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
