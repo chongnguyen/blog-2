@@ -1,0 +1,102 @@
+/* --------------DEFAULT SETUP --------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #666;
+    text-rendering: optimizeLegibility; /*toi uu hoa hien thi*/
+}
+
+/* ---------------------- REUSABLE COMPONENT ------------------- */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f39c12;
+    padding: 13px;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 170px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #e67e22;
+}
+
+.row {
+    width: 1140px;
+    margin: auto;
+}
+
+/*----------------------------- HEADEING ---------------------------*/
+.header {
+    position: relative;
+    background-image: linear-gradient(54deg, rgba(17,7,66,1) 0%, rgba(11,234,244,0.3085609243697479) 100%), url(./img/background4.jpeg);
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main-nav {
+    float: right;
+    list-style-type: none;
+    display: flex;
+    margin: 85px 100px 0px 0px;
+}
+
+.main-nav .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.main-nav .nav-item a:hover {
+    border-bottom: 1.5px solid #eee;
+    transition: all .2s;
+}
+
+.header .heading-main-box {
+    position: absolute;
+    color: #fff;
+    margin-bottom: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+}
+
+.heading-main-box  h1{
+    font-size: 300%;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 150px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    line-height: 4rem;
+    
+}
+
